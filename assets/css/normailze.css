@@ -1,3 +1,20 @@
 html {
   color: red !important;
 }
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 1s; 
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.test-enter-active, .test-leave-active {
+  transition: all 1s; 
+}
+
+.test-enter, .test-leave-active {
+  opacity: 0;
+  font-size: 40px;
+}
